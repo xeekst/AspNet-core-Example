@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="text-center">
+    <h1 class="display-4">login</h1>
+    <p>普通用户 账号密码都为custom 管理员为admin</p>
+    <form method="post" action="/Home/Login">
+        <input type="text" name="username"  placeholder="username"/>
+        <input type="password" name="password" placeholder="password"/>
+        <input type="submit" value="登录"/>
+    </form>
+</div>
