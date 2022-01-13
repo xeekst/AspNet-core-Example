@@ -28,11 +28,18 @@ namespace ANC_Authorize_Policy.Controllers
             return View();
         }
         
-        [Authorize(Policy="Administrator")]
+        [Authorize(Policy= "AdministratorOnly")]
         public IActionResult Privacy()
         {
             return View();
         }
+
+        [Authorize(Policy = "DateOfBirthMoreThan2021")]
+        public IActionResult DateOfBirthView()
+        {
+            return View();
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
@@ -51,16 +58,20 @@ namespace ANC_Authorize_Policy.Controllers
         {
             var returnUrl = HttpContext.Request.Query["ReturnUrl"];
             string roleType = "";
-            if(username == "admin"){
+            string dateOfBirth = "2020-01-12";
+            if (username == "admin"){
                 roleType =  "Administrator";
+                dateOfBirth = "2022-01-12";
             }
             else if(username == "custom"){
                 roleType = "Custom";
+                dateOfBirth = "2012-01-12";
             }
             if((username == "admin" && password == "admin") || (username == "custom" && password == "custom")){
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name,username),
+                    new Claim(ClaimTypes.DateOfBirth,dateOfBirth),
                     new Claim("Role",roleType)
                 };
                 var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);

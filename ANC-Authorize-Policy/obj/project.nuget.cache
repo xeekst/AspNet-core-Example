@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "rKsiaxme1pdlPI0IWAIWgHoj8kQ+3/52VavdOdrVUgZiMH9dl8JNnQKuabFodAsY7JhbcyNfQonw0+bP/LdlDQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\luotao9\\Downloads\\AspNetCore\\AspNet-core-Example\\ANC-Authorize-Policy\\ANC-Authorize-Policy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luotao9\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\luotao9\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\luotao9\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\luotao9\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

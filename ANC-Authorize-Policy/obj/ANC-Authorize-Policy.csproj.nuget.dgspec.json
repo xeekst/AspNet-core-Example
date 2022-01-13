@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AspNet-core-Example\\ANC-Authorize-Policy\\ANC-Authorize-Policy.csproj": {}
+    "C:\\Users\\luotao9\\Downloads\\AspNetCore\\AspNet-core-Example\\ANC-Authorize-Policy\\ANC-Authorize-Policy.csproj": {}
   },
   "projects": {
-    "D:\\AspNet-core-Example\\ANC-Authorize-Policy\\ANC-Authorize-Policy.csproj": {
+    "C:\\Users\\luotao9\\Downloads\\AspNetCore\\AspNet-core-Example\\ANC-Authorize-Policy\\ANC-Authorize-Policy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AspNet-core-Example\\ANC-Authorize-Policy\\ANC-Authorize-Policy.csproj",
+        "projectUniqueName": "C:\\Users\\luotao9\\Downloads\\AspNetCore\\AspNet-core-Example\\ANC-Authorize-Policy\\ANC-Authorize-Policy.csproj",
         "projectName": "ANC-Authorize-Policy",
-        "projectPath": "D:\\AspNet-core-Example\\ANC-Authorize-Policy\\ANC-Authorize-Policy.csproj",
-        "packagesPath": "C:\\Users\\xeekseven\\.nuget\\packages\\",
-        "outputPath": "D:\\AspNet-core-Example\\ANC-Authorize-Policy\\obj\\",
+        "projectPath": "C:\\Users\\luotao9\\Downloads\\AspNetCore\\AspNet-core-Example\\ANC-Authorize-Policy\\ANC-Authorize-Policy.csproj",
+        "packagesPath": "C:\\Users\\luotao9\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luotao9\\Downloads\\AspNetCore\\AspNet-core-Example\\ANC-Authorize-Policy\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\xeekseven\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\luotao9\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -31,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
             "projectReferences": {}
           }
         },
@@ -42,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "imports": [
             "net461",
             "net462",
@@ -52,6 +49,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -59,7 +74,8 @@
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
-          }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
